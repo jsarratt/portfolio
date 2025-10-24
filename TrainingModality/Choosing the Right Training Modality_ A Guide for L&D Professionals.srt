@@ -1,0 +1,156 @@
+1
+00:00:06,800 --> 00:00:07,345
+Hi there!
+
+2
+00:00:07,495 --> 00:00:12,935
+I'm your learning consultant, here to help you choose
+the right training modality for your next project.Whether
+
+3
+00:00:12,935 --> 00:00:19,015
+you're building a quick reference guide, a full eLearning
+course, or a hands-on workshop, the right format depends
+
+4
+00:00:19,015 --> 00:00:20,452
+on a few key factors.
+
+5
+00:00:20,602 --> 00:00:22,088
+Let's explore them together.
+
+6
+00:00:22,100 --> 00:00:24,027
+First, consider your audience size.
+
+7
+00:00:24,177 --> 00:00:30,417
+If your training is meant for a small group — say,
+under 25 people — live or instructor-led sessions
+
+8
+00:00:30,417 --> 00:00:31,688
+can be very effective.
+
+9
+00:00:31,838 --> 00:00:34,660
+You'll have more opportunity for discussion and coaching.
+
+10
+00:00:35,866 --> 00:00:41,945
+But when you're training hundreds or even thousands
+of employees, scalable options like eLearning modules
+
+11
+00:00:41,945 --> 00:00:44,747
+or video tutorials make much more sense.
+
+12
+00:00:44,897 --> 00:00:48,287
+They ensure everyone gets the same message, wherever
+they are.
+
+13
+00:00:48,300 --> 00:00:51,713
+Next, think about your budget and available resources.
+
+14
+00:00:51,863 --> 00:00:57,383
+If you're working with a tight timeline or limited
+funds, a well-designed job aid or quick reference
+
+15
+00:00:57,383 --> 00:00:58,817
+guide might be your best option.
+
+16
+00:00:58,967 --> 00:01:05,367
+When you have a moderate budget, consider an eLearning
+course — it offers interactivity and can be reused
+
+17
+00:01:05,367 --> 00:01:06,107
+many times.
+
+18
+00:01:06,257 --> 00:01:11,857
+And if you have the time and funding, you might combine
+formats — for example, a polished video paired with
+
+19
+00:01:11,857 --> 00:01:13,978
+short learning activities for reinforcement.
+
+20
+00:01:15,166 --> 00:01:17,940
+The nature of your content also plays a big role.
+
+21
+00:01:18,090 --> 00:01:23,698
+If you're simply sharing information or raising awareness,
+a short video or microlearning module can do the job.
+
+22
+00:01:23,848 --> 00:01:29,528
+If you need to teach a process or build a skill,
+interactive eLearning or simulations help learners
+
+23
+00:01:29,528 --> 00:01:30,489
+practice safely.
+
+24
+00:01:30,739 --> 00:01:36,323
+And for performance support — something learners use
+on the job — job aids or quick guides are ideal.
+
+25
+00:01:36,333 --> 00:01:42,252
+When you put all these factors together — audience
+size, budget, and content type — you can identify
+
+26
+00:01:42,252 --> 00:01:44,854
+the modality that gives your learners the most value.
+
+27
+00:01:45,004 --> 00:01:50,364
+There's no one-size-fits-all answer, but aligning
+these three elements helps you make smart, strategic
+
+28
+00:01:50,364 --> 00:01:52,179
+training choices every time.
+
+29
+00:01:52,166 --> 00:01:56,670
+So the next time you're planning a training project,
+take a quick consultative approach.
+
+30
+00:01:56,820 --> 00:01:58,318
+Ask yourself: Who's learning?
+
+31
+00:01:58,468 --> 00:01:59,188
+What's the goal?
+
+32
+00:01:59,338 --> 00:02:00,789
+And what resources do I have?
+
+33
+00:02:00,939 --> 00:02:04,457
+The right answers will naturally point you toward
+the best training modality.
+
+34
+00:02:04,707 --> 00:02:10,227
+Thanks for joining me for this micro-consulting session —
+and here's to designing learning experiences that
+
+35
+00:02:10,227 --> 00:02:11,626
+truly make an impact!
+
