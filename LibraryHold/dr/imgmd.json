@@ -1,0 +1,18 @@
+cp.imagesJSONCacheForLocal=true;cp.imageToJSONPathMap={ 
+"dr/12693_1280_721.png": "img1.json",
+"dr/12989_1280_720.png": "img1.json",
+"dr/13000_1280_720.png": "img1.json",
+"dr/13046_1280_720.png": "img2.json",
+"dr/13085_1280_720.png": "img2.json",
+"dr/13124_1280_720.png": "img2.json",
+"dr/13163_1280_720.png": "img2.json",
+"dr/loading.gif": "img2.json",
+"dr/SubTitle_AutoShape_2.png": "img2.json",
+"dr/Text_Caption_1.png": "img2.json",
+"dr/Text_Caption_2.png": "img2.json",
+"dr/Text_Caption_3.png": "img2.json",
+"dr/Text_Caption_4.png": "img2.json",
+"dr/Text_Caption_5.png": "img2.json",
+"dr/Text_Caption_6.png": "img2.json",
+"dr/Title_AutoShape_2.png": "img2.json",
+"___":"___"};
