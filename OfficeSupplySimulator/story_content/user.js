@@ -18,7 +18,7 @@ window.Script1 = function()
   var player = GetPlayer();
 
 // 1. Get values
-var inkInput = player.GetVar("InkQty");
+var inkInput = player.GetVar("inkQty");
 var budget = player.GetVar("budgetUsed");
 var efficiency = player.GetVar("efficiencyScore");
 var satisfaction = player.GetVar("satisfactionScore");
@@ -31,20 +31,20 @@ var inkVal = parseFloat(inkInput);
 if (!isNaN(inkVal)) {
     // SUCCESS: Perform calc and turn off error flag
     var newBudget = budget + (inkVal * 35);
-    var totalInk = inkVal * 35);
+    var totalInk = inkVal * 35;
        
      // efficiencyScore = efficiencyScore + (InkQty * 2)
-    var newEfficiency = efficiency + (InkVal * 2);
+    var newEfficiency = efficiency + (inkVal * 2);
 
     // satisfactionScore = satisfactionScore + (InkQty * 1)
-    var newSatisfaction = satisfaction + (InkVal * 1);
+    var newSatisfaction = satisfaction + (inkVal * 1);
 
-    // decisionLog = decisionLog + "Ordered " + InkQty + " ink cartridges | "
-    var newLog = log + "Ordered " + InkVal + " ink cartridges | ";
+    // decisionLog = decisionLog + "Ordered " + inkQty + " ink cartridges | "
+    var newLog = log + "Ordered " + inkVal + " ink cartridges | ";
 
     
     // Explicitly set error to false so the layer doesn't show
-    player.SetVar("InputError", false); 
+    player.SetVar("inputError", false); 
     
     // --- Send results back to Storyline ---
     player.SetVar("budgetUsed", newBudget);
@@ -56,7 +56,7 @@ if (!isNaN(inkVal)) {
 
 } else {
     // FAILURE: Turn on error flag
-    player.SetVar("InputError", true);
+    player.SetVar("inputError", true);
 }
 }
 
@@ -81,7 +81,7 @@ if (!isNaN(qtyVal)) {
     
     // budgetUsed = budgetUsed + (paperQty * 8)
     var newBudget = budget + (qtyVal * 8);
-    var paperTotal = inkVal * 35);
+    var totalPaper = qtyVal * 8;
 
     // efficiencyScore = efficiencyScore + (paperQty * 1)
     var newEfficiency = efficiency + (qtyVal * 1);
@@ -94,17 +94,17 @@ if (!isNaN(qtyVal)) {
 
     // --- Send results back to Storyline ---
     player.SetVar("budgetUsed", newBudget);
-    player.SetVar("totalPaper", paperTotal);
+    player.SetVar("paperTotal", totalPaper);
     player.SetVar("efficiencyScore", newEfficiency);
     player.SetVar("satisfactionScore", newSatisfaction);
     player.SetVar("decisionLog", newLog);
 
     // Reset error flag (if you are using the error layer technique)
-    player.SetVar("InputError", false);
+    player.SetVar("inputError", false);
 
 } else {
     // Trigger error if input is not a number
-    player.SetVar("InputError", true);
+    player.SetVar("inputError", true);
 }
 }
 
@@ -144,11 +144,11 @@ if (!isNaN(qtyVal)) {
     player.SetVar("decisionLog", newLog);
 
     // Reset error flag
-    player.SetVar("InputError", false);
+    player.SetVar("inputError", false);
 
 } else {
     // Trigger error if input is not a number
-    player.SetVar("InputError", true);
+    player.SetVar("inputError", true);
 }
 }
 
@@ -172,7 +172,7 @@ if (supplies === 0 && cleaning === 0 && comfort === 0) {
     
     // VALIDATION FAILED
     // Set the error flag to True to trigger the layer
-    player.SetVar("AllocationError", true);
+    player.SetVar("allocationError", true);
 
 } else {
 
@@ -201,7 +201,7 @@ if (supplies === 0 && cleaning === 0 && comfort === 0) {
     player.SetVar("decisionLog", newLog);
 
     // Turn off error flag (just in case)
-    player.SetVar("AllocationError", false);
+    player.SetVar("allocationError", false);
     
     // Optional: Jump to next slide or show a "Success" layer here
     // player.SetVar("MoveToNextSlide", true); 
@@ -321,8 +321,13 @@ player.SetVar("comfortTokens", 0);
 // --- Reset Log ---
 player.SetVar("decisionLog", "");
 
-// Optional: Reset the error flag we created earlier
-// player.SetVar("InputError", false);
+// Reset the error flag 
+player.SetVar("inputError", false);
+
+//Reset visited pages
+player.SetVar("visited_ink", false);
+player.SetVar("visited_paper", false);
+player.SetVar("visited_snacks", false);
 }
 
 };
